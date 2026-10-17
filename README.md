@@ -8,7 +8,7 @@ One folder per skill under `skills/`, each with a `SKILL.md` (front matter `name
 
 | Skill | What it is for |
 |-------|----------------|
-| [clean-code-principles](skills/clean-code-principles/SKILL.md) | Core engineering stance and code rules for every project |
+| [clean-code-principles](skills/clean-code-principles/SKILL.md) | Main skill, always applies: core stance, code and testing rules, git identity and commit rules |
 | [myassistant-workflow](skills/myassistant-workflow/SKILL.md) | Language, style, git and verification rules for the MyAssistant app |
 
 ## Conventions
