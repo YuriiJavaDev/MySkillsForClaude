@@ -1,6 +1,6 @@
 ---
 name: myassistant-workflow
-description: Use when working on the owner's MyAssistant Android app (Java, Room, WorkManager, WebDAV backup) or any of his repositories; language, code style, git and verification rules.
+description: Use when working on the owner's MyAssistant Android app (Java, Room, WorkManager, WebDAV backup); language, UI style, project git details and verification rules.
 ---
 
 # MyAssistant workflow
