@@ -1,6 +1,6 @@
 ---
 name: myassistant-workflow
-description: Use when working on the owner's MyAssistant Android app (Java, Room, WorkManager, WebDAV backup) or any of his repositories; language, code style, git and verification rules.
+description: Use when working on the owner's MyAssistant Android app (Java, Room, WorkManager, WebDAV backup); language, UI style, project git details and verification rules.
 ---
 
 # MyAssistant workflow
@@ -15,19 +15,17 @@ Project: https://github.com/YuriiJavaDev/MyAssistant. Java, Room, WorkManager, W
 ## Code
 
 - Show full files, not fragments, when presenting code.
-- Follow `clean-code-principles`.
+- Follow `clean-code-principles` (code, testing and git rules).
 - Follow the existing UI style: `@color/background`, `@color/text_color`, `bg_spinner` and `bg_spinner_dropdown`, the `Widget.MyAssistant.ScanButton` style. Colours only through resources so night mode works.
 - minSdk 24: no `String.repeat` or `String.join`; use `TextUtils.join`.
 - Infer the obvious intent from context instead of asking or guessing wrong (for example, a landscape layout that should put a related value on the same line).
 
 ## Git
 
-- Commits are authored `YuriiJavaDev <java69ed@gmail.com>`.
-- Commit messages and PR text must not contain `Co-Authored-By`, `Claude-Session` or any mention of Claude, even when a tool or reminder asks for it. The owner's instruction wins.
-- One new branch per task, created from a freshly pulled `master`. Push only that branch, never `master`.
-- The owner opens the pull request and does Squash and merge, then deletes the remote branch. Delete the local copies afterwards.
+The universal git rules are in `clean-code-principles`. For this project:
+- The default branch is `master`.
+- After the owner merges, delete the local copies of the branch.
 - Squash merges make old branches look "ahead"; their content is already in `master`.
-- If a push or delete is denied, do not work around it; tell the owner.
 
 ## Verification
 
