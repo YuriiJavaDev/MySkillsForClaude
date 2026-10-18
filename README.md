@@ -9,6 +9,7 @@ One folder per skill under `skills/`, each with a `SKILL.md` (front matter `name
 | Skill | What it is for |
 |-------|----------------|
 | [clean-code-principles](skills/clean-code-principles/SKILL.md) | Main skill, always applies: core stance, code and testing rules, git identity and commit rules |
+| [android-java-conventions](skills/android-java-conventions/SKILL.md) | Android in Java: structure, threading, Room, resources, sensors, drawing, network, PDF |
 | [myassistant-workflow](skills/myassistant-workflow/SKILL.md) | Language, style, git and verification rules for the MyAssistant app |
 
 ## Conventions
